@@ -16,7 +16,7 @@
 <body>
 <!--Navbar-->
 
-<div class="nav">
+<div role="navigation" class="nav">
     <input type="checkbox" id="nav-check">
     <div class="nav-header">
         <div class="nav-title">
@@ -34,9 +34,9 @@
         </label>
     </div>
 
-    <div class="nav-links">
+    <div role="link" class="nav-links">
+        <a href="subscribe.html">Subscribe</a>
         <a href="https://github.com/rjrm84" target="_blank">Github</a>
-        <a href="https://stackexchange.com/users/14363769/raul-rodriguez" target="_blank">Stackoverflow</a>
         <a href="https://www.linkedin.com/in/raul-rodriguez-a8b23021/" target="_blank">LinkedIn</a>
         <a href="https://codepen.io/rjrm84" target="_blank">Codepen</a>
         <a href="about.html">About</a>
@@ -54,19 +54,19 @@
     </header>
     <section class="content">
         <img src='https://i.picsum.photos/id/180/2400/1600.jpg?hmac=Ig-CXcpNdmh51k3kXpNqNqcDYTwXCIaonYiBOnLXBb8' alt='large-image' class="poster-image">
-        <h5>Frameworks are about efficiency and effectiveness. They save you time. By forcing common conventions, a framework helps solve common issues like view rendering, asset generation, security, application configurations -- things that happen in every web application.</h5>
+        <h2>Frameworks are about efficiency and effectiveness. They save you time. By forcing common conventions, a framework helps solve common issues like view rendering, asset generation, security, application configurations -- things that happen in every web application.</h2>
         <p>This is good. It brings consistency to decisions. Instead of implementing a feature by writing a number of custom modules, all we have to do is implement it the way the framework wants us to. This saves us time and headaches, and makes the development process easier. However, that is the basis of the problem.</p>
         <p>Because frameworks are so good at making decisions for us, we get lazy. Instead of thinking hard about how to build a clean system with crisp abstractions, we think about what the framework would want us to do, regardless of whether the resulting code is clean.</p>
-        <h4>To the hammer, everything looks like a nail</h4>
+        <h3>To the hammer, everything looks like a nail</h3>
         <p>The Law of the Instrument is best described by Abraham Kaplan, "...Give a small boy a hammer, and he will find that everything he encounters needs pounding."
 
             When relying on a framework, we are victims of the law of the instrument. Whenever we implement a feature that doesn’t fit perfectly into the framework, we get sloppy. We look at solving a problem like the framework wants us to. It is easiest to shoehorn the idea into the framework, instead of designing the code that is best for the feature.
 
             This is a matter of professionalism, and delivering the best possible code for each feature, instead of doing what is easiest. It’s a matter of taking personal responsibility for the design of your application instead of letting something or someone else do it for you. As professional developers, we must think independently of our framework.</p>
 
-        <h4>Choose the right tool, or use the tool properly</h4>
+        <h3>Choose the right tool, or use the tool properly</h3>
         <p>Coding with a framework is still coding, after all. And as programmers, we have the choice of how we want to implement a feature. As people that care about clean code, it’s important that we commit to SOLID design and well-abstracted programs that do just what you’d expect. And to do that, we have to actively think about our design choices, especially in a framework.</p>
-        <h4>Decide to be a professional</h4>
+        <h3>Decide to be a professional</h3>
         <p>We must choose our tools on a use case by use case basis. A framework can do many things, and the use case should dictate the architecture. Sometimes the framework will fit perfectly into the implementation of a use case. When it does not, it is your responsibility to write within or around the framework for the sake of clean code.</p>
 
         <br>
@@ -75,7 +75,7 @@
         </div>
     </section>
     <aside class="aside">
-        <h4 class="heading">Other Articles you might Enjoy</h4>
+        <h3 class="heading">Other Articles you might Enjoy</h3>
         <div class="card">
             <img src='https://i.picsum.photos/id/201/5184/3456.jpg?hmac=3SX-1t9hHlAmc653Ox-EmJonZBCaCSK5b9FayvY4sbI' alt=''>
             <div>
@@ -107,10 +107,10 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <div class="footer-container">
         <div class="footer-social">
-            <a href="https://www.facebook.com/" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-            <a href="https://twitter.com/rjrm84" target="_blank"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-            <a href="https://plus.google.com/" target="_blank"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
-            <a href="mailto:#" target="_blank"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+            <a href="https://www.facebook.com/" aria-label="facebook" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+            <a href="https://twitter.com/rjrm84" aria-label="twitter" target="_blank"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+            <a href="https://instagram.com/"  aria-label="instagram" target="_blank"><i id="social-gp" class="fa fa-instagram fa-3x social"></i></a>
+            <a href="mailto:rjrm84@gmail.com" aria-label="mail-to" target="_blank"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
         </div>
     </div>
 </Footer>
