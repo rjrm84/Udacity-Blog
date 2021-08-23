@@ -161,6 +161,12 @@
     width: 40px;
     height: 40px;
 }
+
+.fa-external-link {
+    color: #C6D4DF;
+    height: 2px;
+    width: 20px;
+}
 /*
     Navbar
 */
